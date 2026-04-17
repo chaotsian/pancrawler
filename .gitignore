@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment
+.env
+.env.*
+*.local
+
+# Cache
+cache/
+.crawl4ai_env/
+
+# Logs
+*.log
+
+# Data files (large/db)
+data/*.db
+data/*.sqlite
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Empty/placeholder files
+&1
+1
+500
+CRON
+CRON_ENTRY_*
