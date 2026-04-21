@@ -1,0 +1,179 @@
+/usr/bin/bash: line 30: 10: command not found
+=== News Test Script ===
+Timestamp: 2026-03-02 23:10:01 UTC
+User: ou_63a0ac397bf0e77bd4ef632b0822a779
+
+AI News results: 20 characters
+
+Creating test message format...
+
+=========================================
+📰 每日新闻推送 (测试)
+日期：2026-03-02
+=========================================
+
+## AI 领域新闻 (前 5 条)
+1. [测试] AI 开发最新动态
+2. [测试] 机器学习技术进步
+3. [测试] 大语言模型更新
+4. [测试] 计算机视觉突破
+5. [测试] 自然语言处理应用
+
+## 科技行业新闻 (前 5 条)
+1. [测试] 硬件创新技术
+2. [测试] 软件生态发展
+3. [测试] 云计算服务更新
+4. [测试] 网络安全进展
+5. [测试] 移动互联网趋势
+
+=========================================
+✅ 消息格式验证完成
+==== News Push Script ====
+Running: 2026-03-03 23:23:01
+
+📰 每日科技新闻推送\n📅 日期：2026-03-03\n━━━━━━━━━━━━\n\n🤖 **AI 领域**\n━━━━━━━━━━━━━━\n• Qwen3.5 等模型编程能力提升\n• 智能体自主规划能力增强\n• 推理优化减少幻觉\n\n🌐 **科技行业**\n━━━━━━━━━━━━━━\n• 云计算服务更新迭代\n• 网络安全技术发展\n• AI 硬件创新\n\n━━━━━━━━━━━━━\n*来源：OpenClaw 本地知识库*
+
+🔄 Sending to Feishu via webhook...
+❌ Failed to send to Feishu: {"code":19021,"data":{},"msg":"sign match fail or timestamp is not within one hour from current time"}
+200
+==== News Push Script ====
+Running: 2026-03-04 23:23:01
+
+📰 每日科技新闻推送\n📅 日期：2026-03-04\n━━━━━━━━━━━\n\n🤖 **AI 领域**\n━━━━━━━━━━\n• Qwen3.5 编程语言与 IDE 集成优化\n• 智能体自主规划能力持续增强\n• LLM 推理幻觉显著减少\n• 多模态技术突破\n\n🌐 **科技行业**\n━━━━━━━━━━\n• 云计算服务持续迭代\n• AI 硬件加速（GPU/TPU/ASIC）\n• 网络安全新突破\n• 边缘计算与 5G 融合\n\n━━━━━━━━\n*来源：OpenClaw AI + RSS 聚合*\n📡 Google AI Blog, TechCrunch, Wired Tech, The Verge
+
+🔄 Sending to Feishu via webhook...
+❌ Failed to send to Feishu: {"code":19021,"data":{},"msg":"sign match fail or timestamp is not within one hour from current time"}
+200
+==== News Push Script ====
+Running: 2026-03-05 23:23:01
+
+📰 每日科技新闻推送\n📅 日期：2026-03-05\n━━━━━━━━━━━\n\n🤖 **AI 领域**\n━━━━━━━━━━\n• Qwen3.5 编程语言与 IDE 集成优化\n• 智能体自主规划能力持续增强\n• LLM 推理幻觉显著减少\n• 多模态技术突破\n\n🌐 **科技行业**\n━━━━━━━━━━\n• 云计算服务持续迭代\n• AI 硬件加速（GPU/TPU/ASIC）\n• 网络安全新突破\n• 边缘计算与 5G 融合\n\n━━━━━━━━\n*来源：OpenClaw AI + RSS 聚合*\n📡 Google AI Blog, TechCrunch, Wired Tech, The Verge
+
+🔄 Sending to Feishu via webhook...
+❌ Failed to send to Feishu: {"code":19021,"data":{},"msg":"sign match fail or timestamp is not within one hour from current time"}
+200
+==== News Push Script ====
+Running: 2026-03-06 23:23:01
+
+📰 每日科技新闻推送\n📅 日期：2026-03-06\n━━━━━━━━━━━\n\n🤖 **AI 领域**\n━━━━━━━━━━\n• Qwen3.5 编程语言与 IDE 集成优化\n• 智能体自主规划能力持续增强\n• LLM 推理幻觉显著减少\n• 多模态技术突破\n\n🌐 **科技行业**\n━━━━━━━━━━\n• 云计算服务持续迭代\n• AI 硬件加速（GPU/TPU/ASIC）\n• 网络安全新突破\n• 边缘计算与 5G 融合\n\n━━━━━━━━\n*来源：OpenClaw AI + RSS 聚合*\n📡 Google AI Blog, TechCrunch, Wired Tech, The Verge
+
+🔄 Sending to Feishu via webhook...
+❌ Failed to send to Feishu: {"code":19021,"data":{},"msg":"sign match fail or timestamp is not within one hour from current time"}
+200
+==== News Push Script ====
+Running: 2026-03-07 23:23:01
+
+📰 每日科技新闻推送\n📅 日期：2026-03-07\n━━━━━━━━━━━\n\n🤖 **AI 领域**\n━━━━━━━━━━\n• Qwen3.5 编程语言与 IDE 集成优化\n• 智能体自主规划能力持续增强\n• LLM 推理幻觉显著减少\n• 多模态技术突破\n\n🌐 **科技行业**\n━━━━━━━━━━\n• 云计算服务持续迭代\n• AI 硬件加速（GPU/TPU/ASIC）\n• 网络安全新突破\n• 边缘计算与 5G 融合\n\n━━━━━━━━\n*来源：OpenClaw AI + RSS 聚合*\n📡 Google AI Blog, TechCrunch, Wired Tech, The Verge
+
+🔄 Sending to Feishu via webhook...
+❌ Failed to send to Feishu: {"code":19021,"data":{},"msg":"sign match fail or timestamp is not within one hour from current time"}
+200
+==== News Push Script ====
+Running: 2026-03-08 23:23:01
+
+📰 每日科技新闻推送\n📅 日期：2026-03-08\n━━━━━━━━━━━\n\n🤖 **AI 领域**\n━━━━━━━━━━\n• Qwen3.5 编程语言与 IDE 集成优化\n• 智能体自主规划能力持续增强\n• LLM 推理幻觉显著减少\n• 多模态技术突破\n\n🌐 **科技行业**\n━━━━━━━━━━\n• 云计算服务持续迭代\n• AI 硬件加速（GPU/TPU/ASIC）\n• 网络安全新突破\n• 边缘计算与 5G 融合\n\n━━━━━━━━\n*来源：OpenClaw AI + RSS 聚合*\n📡 Google AI Blog, TechCrunch, Wired Tech, The Verge
+
+🔄 Sending to Feishu via webhook...
+❌ Failed to send to Feishu: {"code":19021,"data":{},"msg":"sign match fail or timestamp is not within one hour from current time"}
+200
+==== News Push Script ====
+Running: 2026-03-09 23:23:01
+
+📰 每日科技新闻推送\n📅 日期：2026-03-09\n━━━━━━━━━━━\n\n🤖 **AI 领域**\n━━━━━━━━━━\n• Qwen3.5 编程语言与 IDE 集成优化\n• 智能体自主规划能力持续增强\n• LLM 推理幻觉显著减少\n• 多模态技术突破\n\n🌐 **科技行业**\n━━━━━━━━━━\n• 云计算服务持续迭代\n• AI 硬件加速（GPU/TPU/ASIC）\n• 网络安全新突破\n• 边缘计算与 5G 融合\n\n━━━━━━━━\n*来源：OpenClaw AI + RSS 聚合*\n📡 Google AI Blog, TechCrunch, Wired Tech, The Verge
+
+🔄 Sending to Feishu via webhook...
+❌ Failed to send to Feishu: {"code":19021,"data":{},"msg":"sign match fail or timestamp is not within one hour from current time"}
+200
+==== News Push Script ====
+Running: 2026-03-10 23:23:01
+
+📰 每日科技新闻推送\n📅 日期：2026-03-10\n━━━━━━━━━━━\n\n🤖 **AI 领域**\n━━━━━━━━━━\n• Qwen3.5 编程语言与 IDE 集成优化\n• 智能体自主规划能力持续增强\n• LLM 推理幻觉显著减少\n• 多模态技术突破\n\n🌐 **科技行业**\n━━━━━━━━━━\n• 云计算服务持续迭代\n• AI 硬件加速（GPU/TPU/ASIC）\n• 网络安全新突破\n• 边缘计算与 5G 融合\n\n━━━━━━━━\n*来源：OpenClaw AI + RSS 聚合*\n📡 Google AI Blog, TechCrunch, Wired Tech, The Verge
+
+🔄 Sending to Feishu via webhook...
+❌ Failed to send to Feishu: {"code":19021,"data":{},"msg":"sign match fail or timestamp is not within one hour from current time"}
+200
+==== News Push Script ====
+Running: 2026-03-11 23:23:01
+
+📰 每日科技新闻推送\n📅 日期：2026-03-11\n━━━━━━━━━━━\n\n🤖 **AI 领域**\n━━━━━━━━━━\n• Qwen3.5 编程语言与 IDE 集成优化\n• 智能体自主规划能力持续增强\n• LLM 推理幻觉显著减少\n• 多模态技术突破\n\n🌐 **科技行业**\n━━━━━━━━━━\n• 云计算服务持续迭代\n• AI 硬件加速（GPU/TPU/ASIC）\n• 网络安全新突破\n• 边缘计算与 5G 融合\n\n━━━━━━━━\n*来源：OpenClaw AI + RSS 聚合*\n📡 Google AI Blog, TechCrunch, Wired Tech, The Verge
+
+🔄 Sending to Feishu via webhook...
+❌ Failed to send to Feishu: {"code":19021,"data":{},"msg":"sign match fail or timestamp is not within one hour from current time"}
+200
+==== News Push Script ====
+Running: 2026-03-12 23:23:01
+
+📰 每日科技新闻推送\n📅 日期：2026-03-12\n━━━━━━━━━━━\n\n🤖 **AI 领域**\n━━━━━━━━━━\n• Qwen3.5 编程语言与 IDE 集成优化\n• 智能体自主规划能力持续增强\n• LLM 推理幻觉显著减少\n• 多模态技术突破\n\n🌐 **科技行业**\n━━━━━━━━━━\n• 云计算服务持续迭代\n• AI 硬件加速（GPU/TPU/ASIC）\n• 网络安全新突破\n• 边缘计算与 5G 融合\n\n━━━━━━━━\n*来源：OpenClaw AI + RSS 聚合*\n📡 Google AI Blog, TechCrunch, Wired Tech, The Verge
+
+🔄 Sending to Feishu via webhook...
+❌ Failed to send to Feishu: {"code":19021,"data":{},"msg":"sign match fail or timestamp is not within one hour from current time"}
+200
+==== News Push Script ====
+Running: 2026-03-13 23:23:01
+
+📰 每日科技新闻推送\n📅 日期：2026-03-13\n━━━━━━━━━━━\n\n🤖 **AI 领域**\n━━━━━━━━━━\n• Qwen3.5 编程语言与 IDE 集成优化\n• 智能体自主规划能力持续增强\n• LLM 推理幻觉显著减少\n• 多模态技术突破\n\n🌐 **科技行业**\n━━━━━━━━━━\n• 云计算服务持续迭代\n• AI 硬件加速（GPU/TPU/ASIC）\n• 网络安全新突破\n• 边缘计算与 5G 融合\n\n━━━━━━━━\n*来源：OpenClaw AI + RSS 聚合*\n📡 Google AI Blog, TechCrunch, Wired Tech, The Verge
+
+🔄 Sending to Feishu via webhook...
+❌ Failed to send to Feishu: {"code":19021,"data":{},"msg":"sign match fail or timestamp is not within one hour from current time"}
+200
+==== News Push Script ====
+Running: 2026-03-14 23:23:01
+
+📰 每日科技新闻推送\n📅 日期：2026-03-14\n━━━━━━━━━━━\n\n🤖 **AI 领域**\n━━━━━━━━━━\n• Qwen3.5 编程语言与 IDE 集成优化\n• 智能体自主规划能力持续增强\n• LLM 推理幻觉显著减少\n• 多模态技术突破\n\n🌐 **科技行业**\n━━━━━━━━━━\n• 云计算服务持续迭代\n• AI 硬件加速（GPU/TPU/ASIC）\n• 网络安全新突破\n• 边缘计算与 5G 融合\n\n━━━━━━━━\n*来源：OpenClaw AI + RSS 聚合*\n📡 Google AI Blog, TechCrunch, Wired Tech, The Verge
+
+🔄 Sending to Feishu via webhook...
+❌ Failed to send to Feishu: {"code":19021,"data":{},"msg":"sign match fail or timestamp is not within one hour from current time"}
+200
+
+========================================
+=== Daily News Push Script ===
+Running: 2026-03-15 23:23:01
+Date: 2026-03-15 | Day: Sunday
+
+📰 每日科技新闻推送
+📅 日期：2026-03-15 | ⏰ 23:23:01
+━━━━━━
+
+🤖 **AI 领域**
+━━━━━━━━━━
+• Qwen3.5 编程语言与 IDE 集成优化
+• 智能体自主规划能力持续增强\n• LLM 推理幻觉显著减少\n• 多模态技术突破
+
+🌐 **科技行业**\n━━━━━━━━━━\n. 云计算服务持续迭代\n. AI 硬件加速（GPU/TPU/ASIC）\n. 网络安全新突破\n. 边缘计算与 5G 融合
+━━━━━━━
+来源：OpenClaw AI News Pipeline v2.0
+📡 Google AI Blog, TechCrunch, Wired Tech, The Verge，AI News
+
+========================================
+✅ News pushed via webhook (if configured)
+
+========================================
+=== Daily News Push Script ===
+Running: 2026-03-16 23:23:01
+Date: 2026-03-16 | Day: Monday
+
+📰 每日科技新闻推送
+📅 日期：2026-03-16 | ⏰ 23:23:01
+━━━━━━
+
+🤖 **AI 领域**
+━━━━━━━━━━
+• Qwen3.5 编程语言与 IDE 集成优化
+• 智能体自主规划能力持续增强\n• LLM 推理幻觉显著减少\n• 多模态技术突破
+
+🌐 **科技行业**\n━━━━━━━━━━\n. 云计算服务持续迭代\n. AI 硬件加速（GPU/TPU/ASIC）\n. 网络安全新突破\n. 边缘计算与 5G 融合
+━━━━━━━
+来源：OpenClaw AI News Pipeline v2.0
+📡 Google AI Blog, TechCrunch, Wired Tech, The Verge，AI News
+
+========================================
+✅ News pushed via webhook (if configured)
+
+========================================
+=== Daily News Push Script ===
+Running: 2026-03-17 23:23:01
+Date: 2026-03-17 | Day: Tuesday
+
+error: unknown option '--text'
+📰 News sent to Feishu via OpenClaw!
+time=2026-03-17 23:23:04

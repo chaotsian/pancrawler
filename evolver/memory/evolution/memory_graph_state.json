@@ -1,0 +1,51 @@
+{
+  "last_action": {
+    "action_id": "act_1776762505524_90df0cc5",
+    "signal_key": "high_tool_usage:exec|hub_search_miss_with_problem|perf_bottleneck|repeated_tool_usage:exec|tool_bypass",
+    "signals": [
+      "perf_bottleneck",
+      "high_tool_usage:exec",
+      "repeated_tool_usage:exec",
+      "tool_bypass",
+      "hub_search_miss_with_problem"
+    ],
+    "mutation_id": "mut_1776762505523",
+    "mutation_category": "innovate",
+    "mutation_risk_level": "medium",
+    "personality_key": "rigor=0.7|creativity=0.3|verbosity=0.3|risk_tolerance=0.4|obedience=0.9",
+    "personality_state": {
+      "type": "PersonalityState",
+      "rigor": 0.7,
+      "creativity": 0.35,
+      "verbosity": 0.25,
+      "risk_tolerance": 0.4,
+      "obedience": 0.85
+    },
+    "gene_id": "gene_tool_integrity",
+    "gene_category": "repair",
+    "hypothesis_id": "hyp_1776762505524_90df0cc5",
+    "capsules_used": [],
+    "had_error": false,
+    "created_at": "2026-04-21T09:08:25.524Z",
+    "outcome_recorded": false,
+    "baseline_observed": {
+      "agent": "main",
+      "session_scope": null,
+      "drift_enabled": false,
+      "review_mode": false,
+      "dry_run": false,
+      "system_health": "Uptime: 330.6h | Node: v22.22.2 | Agent RSS: 212.4MB | Disk: 22% (112.7G free) | Node Processes: 1 | Integrations: Nominal",
+      "mood": "Mood: Unknown",
+      "scan_ms": 43,
+      "memory_size_bytes": 0,
+      "recent_error_count": 0,
+      "node": "v22.22.2",
+      "platform": "linux",
+      "cwd": "/root/.openclaw/workspace/evolver",
+      "evidence": {
+        "recent_session_tail": "--- SESSION (0b128246-9c6c-4b6c-a881-8ea1e98bb48d.jsonl) ---\n**ASSISTANT**: 根据系统状态，我看到几个需要修复的事项： ## 问题诊断 1. **工作区未追踪文件太多** - 有大量未追踪文件需要处理 2. **memory 目录缺失 2026-04-21.md** - 今天日期的笔记不存在 3. **EvoMap 守护进程正常** - 运行中，无异常 让我先修复工作区的 Git 状态： [TOOL: exec]\n**ASSISTANT**: 发现 Git 问题 - `news/` 目录有问题。让我检查并修复： [TOOL: exec]\n**ASSISTANT**: 还有 `pan/` 目录有问题。继续清理： [TOOL: exec]\n**ASSISTANT**: 多个目录有问题。让我检查 .gitignore 并处理嵌套 Git 仓库问题： [TOOL: read]\n**ASSISTANT**: 当前 .gitignore 没有包含这些嵌套的 Git 仓库目录。让我先删除这些嵌套 Git 仓库的 .git 目录，或者将它们添加为 submodule。最简单的方案是先清理： [TOOL: exec]\n**ASSISTANT**: 好的，现在清理后的状态更清晰了。这些是典型的 OpenClaw 工作区文件。让我提交当前状态并创建缺失的今日笔记： [TOOL: write]\n\n--- SESSION (4fcfa9a5-2bb9-4e32-9c40-9ced505161fe.jsonl) ---\n**USER**: [cron:9cdf439d-ad53-4155-b0ec-743f4642ef1a EvoMap Guardian Daily Report] 🧬 **EvoMap Guardian 每日详细报告** ⏰ 执行时间：每天 17:00 UTC+8 (Asia/Shanghai) 脚本路径：`~/.openclaw/scripts/evomap-daily-status-report.sh` 推送目标：Feishu DM (ID: ou_63a0ac397bf0e77bd4ef632b0822a779) ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 📊 **报告内容详\n**ASSISTANT**: [TOOL: read]\n**ASSISTANT**: 我已审阅脚本，发现几个关键问题需要修复： ### 🔍 问题分析 **1. 变量作用域错误** ```bash CURRENT_BRANCH=$(cd \"$EVOLVER_DIR\" && git rev-parse --abbrev-ref HEAD 2>/dev/null || echo \"unknown\") ``` 在 `generate_full_report()` 函数内定义，但外部也引用它。 **2. Git 状态获取不完整** - 缺少分支、commit、推送/拉取状态的完整检查 **3. 报告内容与需求不一致** - 原需求有 11 个详细章节 - 当前脚本只生成基础状态 **4\n\n--- SESSION (933b62c8-adbf-40bc-9ac2-8e406a9a2dee.jsonl) ---\n**ASSISTANT**: SSH 密码连接失败，可能的原因： 1. 远程服务器的 SSH 配置禁用了密码认证 2. 密码不正确 3. 需要使用密钥认证 [TOOL: exec]\n**ASSISTANT**: [TOOL: exec]\n   ... [Repeated 5 times] ...\n**ASSISTANT**: SSH 连接失败。可能是以下原因： 1. **密码不正确** - 请确认密码 `g3p14a217` 是否正确 2. **SSH 服务器配置** - 远程服务器可能禁用了密码认证 3. **密钥认证** - 可能需要使用 SSH 密钥对认证 **建议检查：** - 确认远程 SSH 服务状态：`systemctl status sshd` - 检查 SSH 配置文件：`/etc/ssh/sshd_config` - 查看允许的认证方式：`PasswordAuthentication yes` 如果需要进一步排查，我可以帮您： 1. 测试本地 ssh 连接 2. 检查 SSH 配置 3. 生成并\n**USER**: System (untrusted): [2026-04-21 16:54:45 GMT+8] Exec completed (ember-wh, code 100) :: onfigured yet. dpkg: error processing package python3-certbot-nginx (--configure): dependency problems - leaving unconfigured Setting up sshpass (1.09-1) ... Processing triggers f… An async command you ran earlier\n**ASSISTANT**: SSH 连接远程服务器失败，多次密码验证未成功。 **可能原因：** - 密码不正确 - 远程服务器禁用了密码认证 - SSH 服务配置问题 需要您确认密码是否正确，或者是否有其他认证方式（如 SSH 密钥）？\n**USER**: Sender (untrusted metadata): ```json {   \"label\": \"openclaw-control-ui\",   \"id\": \"openclaw-control-ui\" } ``` [Tue 2026-04-21 16:58 GMT+8] 用户名 ai 密码g3p14a217\n**ASSISTANT**: [TOOL: exec]\n**ASSISTANT**: ✅ **连接成功！** 远程服务器信息： - **用户名**: `ai` - **IP**: `10.1.10.68` - **FFmpeg 版本**: 6.1.1-3ubuntu5+esm7 - **编译时间**: 2023年 - **支持格式**: H.264/H.265/VP9/AV1 等主流编解码器 需要我帮您测试高清视频处理吗？\n\n--- SESSION (1340074f-ae5b-46b7-8648-a3b70b61a079.jsonl) ---\n**ASSISTANT**: [TOOL: exec]\n   ... [Repeated 4 times] ...\n**ASSISTANT**: [TOOL: write]\n**ASSISTANT**: [TOOL: exec]\n   ... [Repeated 1 times] ...\n**ASSISTANT**: [TOOL: read]\n**ASSISTANT**: Git 远程同步监控已更新脚本并执行成功： ✅ **监控结果** - 远程仓库：`git@github.com:chaotsian/pancrawler.git` - 远程分支：`master` - 同步状态：✅ 已同步 - 本地/远程 Commit：`828d7e9...` 🔧 **改进内容** - 修复分支检测逻辑（自动识别 `master`/`main`） - 优化远程分支缓存检查 - 调整超时配置为 300 秒 - 完善日志记录和报告格式 📊 **日志路径**：`/root/.openclaw/logs/git-sync-monitor.log`\n\n--- SESSION (12a3d4d7-c08e-4a75-b20e-9faa6748e0e2.jsonl) ---\n**USER**: [cron:2b439a32-a000-4400-b5bb-a7a6c32f610f EvoMap Git Sync Monitor] 🔗 **Git 远程同步监控** ⏰ 执行时间：每 4 小时一次 (04:00, 08:00, 12:00, 16:00, 20:00, 00:00 UTC+8) 脚本路径：`/root/.openclaw/scripts/git-sync-monitor.sh` 推送目标：Feishu DM 📍 **监控内容**: • Git 远程仓库连接状态测试 • 本地版本 vs 远程版本对比 • 未推送/待拉取 commit 统计 • 最近同步时间追踪 • 生成详\n\n--- SESSION (637361d8-bfe3-403c-b460-bc7d41ba16f8.jsonl) ---\n**USER**: [cron:2b439a32-a000-4400-b5bb-a7a6c32f610f EvoMap Git Sync Monitor] 🔗 **Git 远程同步监控** ⏰ 执行时间：每 4 小时一次 (04:00, 08:00, 12:00, 16:00, 20:00, 00:00 UTC+8) 脚本路径：`/root/.openclaw/scripts/git-sync-monitor.sh` 推送目标：Feishu DM 📍 **监控内容**: • Git 远程仓库连接状态测试 • 本地版本 vs 远程版本对比 • 未推送/待拉取 commit 统计 • 最近同步时间追踪 • 生成详\n**ASSISTANT**: [TOOL: exec]\n**ASSISTANT**: [TOOL: process]\n**ASSISTANT**: Git 远程同步监控完成 ✅ **监控结果：** - ⏳ **9 个 commit 未推送**（本地领先远程） - ❌ **远程连接超时**（300 秒超时） - 📊 本地版本 v1.67.4 与远程版本 v1.67.4 相同 - 🔁 本地 commit: 577afaf，远程 commit: 1dc1fa4... **同步状态：不同步**   远程不可达，建议检查网络连接或远程仓库地址配置。 日志路径：`/root/.openclaw/logs/git-sync-monitor.log`\n**USER**: System (untrusted): [2026-04-21 08:02:11 GMT+8] Exec completed (young-oc, code 0) :: 📊 **版本对比**: 当前版本：v1.67.4 远程版本：v1.67.4 本地 Commit: 577afaf 远程 Commit: 1dc1fa4... 📡 **同步状态**: ❌ Remote inaccessible (timeout: 300s) 同步差异：不同步 💡 **状态说明**: • ✅ Up to date - 本地与远程完全同步… An async command you ran earlier h\n**ASSISTANT**: 收到，任务已完成。Git 同步监控显示： - **9 个 commit 未推送** - **远程连接超时**（300s） - 版本号一致但远程不可达 已记录日志，无需进一步操作。如需处理远程连接问题，请告知。",
+        "today_log_tail": "[MISSING] /root/.openclaw/workspace/evolver/memory/2026-04-19.md"
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "url_cache": {
+    "url:846c6962ea235750": {
+      "key": "url:846c6962ea235750",
+      "value": {
+        "data": 1
+      },
+      "created_at": "2026-04-10T14:51:36.442461",
+      "accessed_at": "2026-04-10T14:51:36.442462",
+      "access_count": 0,
+      "ttl": 3600.0,
+      "size_bytes": 24,
+      "metadata": {
+        "url": "http://test1.com",
+        "cached_at": "2026-04-10T14:51:36.442448"
+      }
+    }
+  },
+  "metadata_cache": {
+    "file:file456": {
+      "key": "file:file456",
+      "value": {
+        "size": 2048
+      },
+      "created_at": "2026-04-10T14:51:36.442475",
+      "accessed_at": "2026-04-10T14:51:36.442493",
+      "access_count": 0,
+      "ttl": 86400.0,
+      "size_bytes": 25,
+      "metadata": {
+        "file_id": "file456",
+        "cached_at": "2026-04-10T14:51:36.442469"
+      }
+    }
+  },
+  "hash_cache": {
+    "hash:file456": {
+      "key": "hash:file456",
+      "value": "hash123",
+      "created_at": "2026-04-10T14:51:36.442520",
+      "accessed_at": "2026-04-10T14:51:36.442521",
+      "access_count": 0,
+      "ttl": 2592000.0,
+      "size_bytes": 22,
+      "metadata": {
+        "file_id": "file456"
+      }
+    }
+  },
+  "stats": {
+    "total_get": 0,
+    "total_set": 0,
+    "total_delete": 0,
+    "start_time": 

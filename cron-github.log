@@ -1,0 +1,381 @@
+/usr/bin/bash: line 33: 0: command not found
+=== GitHub Trending Test ===
+Timestamp: 2026-03-03 00:00:01 UTC
+Testing GitHub access...
+✅ GitHub is accessible
+
+Expected output format:
+
+🚀 GitHub 每日热门项目 TOP 10 (2026-03-02)
+
+#1 facebook/react
+⭐️ Star: 245k
+📝 描述：声明式 JavaScript 库，用于构建用户界面
+💻 语言：JavaScript
+📖 介绍：React 是由 Facebook 开源的强大前端框架，用于构建单页应用和动态用户界面。其虚拟 DOM 机制和组件化开发模式极大提升了开发效率。
+
+#2 vuejs/core
+⭐️ Star: 220k
+📝 描述：渐进式 JavaScript 框架
+💻 语言：TypeScript
+📖 介绍：Vue.js 是一款轻量级前端框架，学习曲线平缓，适合快速开发单页应用。
+
+... (8 more)
+
+=========================================
+✅ 消息格式验证完成
+=== GitHub Trending Test ===
+Timestamp: 2026-03-04 00:00:01 UTC
+Testing GitHub access...
+✅ GitHub is accessible
+
+Expected output format:
+
+🚀 GitHub 每日热门项目 TOP 10 (2026-03-02)
+
+#1 facebook/react
+⭐️ Star: 245k
+📝 描述：声明式 JavaScript 库，用于构建用户界面
+💻 语言：JavaScript
+📖 介绍：React 是由 Facebook 开源的强大前端框架，用于构建单页应用和动态用户界面。其虚拟 DOM 机制和组件化开发模式极大提升了开发效率。
+
+#2 vuejs/core
+⭐️ Star: 220k
+📝 描述：渐进式 JavaScript 框架
+💻 语言：TypeScript
+📖 介绍：Vue.js 是一款轻量级前端框架，学习曲线平缓，适合快速开发单页应用。
+
+... (8 more)
+
+=========================================
+✅ 消息格式验证完成
+=== GitHub Trending Test ===
+Timestamp: 2026-03-05 00:00:01 UTC
+Testing GitHub access...
+✅ GitHub is accessible
+
+Expected output format:
+
+🚀 GitHub 每日热门项目 TOP 10 (2026-03-02)
+
+#1 facebook/react
+⭐️ Star: 245k
+📝 描述：声明式 JavaScript 库，用于构建用户界面
+💻 语言：JavaScript
+📖 介绍：React 是由 Facebook 开源的强大前端框架，用于构建单页应用和动态用户界面。其虚拟 DOM 机制和组件化开发模式极大提升了开发效率。
+
+#2 vuejs/core
+⭐️ Star: 220k
+📝 描述：渐进式 JavaScript 框架
+💻 语言：TypeScript
+📖 介绍：Vue.js 是一款轻量级前端框架，学习曲线平缓，适合快速开发单页应用。
+
+... (8 more)
+
+=========================================
+✅ 消息格式验证完成
+=== GitHub Trending Test ===
+Timestamp: 2026-03-06 00:00:01 UTC
+Testing GitHub access...
+✅ GitHub is accessible
+
+Expected output format:
+
+🚀 GitHub 每日热门项目 TOP 10 (2026-03-02)
+
+#1 facebook/react
+⭐️ Star: 245k
+📝 描述：声明式 JavaScript 库，用于构建用户界面
+💻 语言：JavaScript
+📖 介绍：React 是由 Facebook 开源的强大前端框架，用于构建单页应用和动态用户界面。其虚拟 DOM 机制和组件化开发模式极大提升了开发效率。
+
+#2 vuejs/core
+⭐️ Star: 220k
+📝 描述：渐进式 JavaScript 框架
+💻 语言：TypeScript
+📖 介绍：Vue.js 是一款轻量级前端框架，学习曲线平缓，适合快速开发单页应用。
+
+... (8 more)
+
+=========================================
+✅ 消息格式验证完成
+=== GitHub Trending Test ===
+Timestamp: 2026-03-07 00:00:01 UTC
+Testing GitHub access...
+✅ GitHub is accessible
+
+Expected output format:
+
+🚀 GitHub 每日热门项目 TOP 10 (2026-03-02)
+
+#1 facebook/react
+⭐️ Star: 245k
+📝 描述：声明式 JavaScript 库，用于构建用户界面
+💻 语言：JavaScript
+📖 介绍：React 是由 Facebook 开源的强大前端框架，用于构建单页应用和动态用户界面。其虚拟 DOM 机制和组件化开发模式极大提升了开发效率。
+
+#2 vuejs/core
+⭐️ Star: 220k
+📝 描述：渐进式 JavaScript 框架
+💻 语言：TypeScript
+📖 介绍：Vue.js 是一款轻量级前端框架，学习曲线平缓，适合快速开发单页应用。
+
+... (8 more)
+
+=========================================
+✅ 消息格式验证完成
+=== GitHub Trending Test ===
+Timestamp: 2026-03-08 00:00:01 UTC
+Testing GitHub access...
+✅ GitHub is accessible
+
+Expected output format:
+
+🚀 GitHub 每日热门项目 TOP 10 (2026-03-02)
+
+#1 facebook/react
+⭐️ Star: 245k
+📝 描述：声明式 JavaScript 库，用于构建用户界面
+💻 语言：JavaScript
+📖 介绍：React 是由 Facebook 开源的强大前端框架，用于构建单页应用和动态用户界面。其虚拟 DOM 机制和组件化开发模式极大提升了开发效率。
+
+#2 vuejs/core
+⭐️ Star: 220k
+📝 描述：渐进式 JavaScript 框架
+💻 语言：TypeScript
+📖 介绍：Vue.js 是一款轻量级前端框架，学习曲线平缓，适合快速开发单页应用。
+
+... (8 more)
+
+=========================================
+✅ 消息格式验证完成
+=== GitHub Trending Test ===
+Timestamp: 2026-03-09 00:00:01 UTC
+Testing GitHub access...
+✅ GitHub is accessible
+
+Expected output format:
+
+🚀 GitHub 每日热门项目 TOP 10 (2026-03-02)
+
+#1 facebook/react
+⭐️ Star: 245k
+📝 描述：声明式 JavaScript 库，用于构建用户界面
+💻 语言：JavaScript
+📖 介绍：React 是由 Facebook 开源的强大前端框架，用于构建单页应用和动态用户界面。其虚拟 DOM 机制和组件化开发模式极大提升了开发效率。
+
+#2 vuejs/core
+⭐️ Star: 220k
+📝 描述：渐进式 JavaScript 框架
+💻 语言：TypeScript
+📖 介绍：Vue.js 是一款轻量级前端框架，学习曲线平缓，适合快速开发单页应用。
+
+... (8 more)
+
+=========================================
+✅ 消息格式验证完成
+=== GitHub Trending Test ===
+Timestamp: 2026-03-10 00:00:01 UTC
+Testing GitHub access...
+✅ GitHub is accessible
+
+Expected output format:
+
+🚀 GitHub 每日热门项目 TOP 10 (2026-03-02)
+
+#1 facebook/react
+⭐️ Star: 245k
+📝 描述：声明式 JavaScript 库，用于构建用户界面
+💻 语言：JavaScript
+📖 介绍：React 是由 Facebook 开源的强大前端框架，用于构建单页应用和动态用户界面。其虚拟 DOM 机制和组件化开发模式极大提升了开发效率。
+
+#2 vuejs/core
+⭐️ Star: 220k
+📝 描述：渐进式 JavaScript 框架
+💻 语言：TypeScript
+📖 介绍：Vue.js 是一款轻量级前端框架，学习曲线平缓，适合快速开发单页应用。
+
+... (8 more)
+
+=========================================
+✅ 消息格式验证完成
+=== GitHub Trending Test ===
+Timestamp: 2026-03-11 00:00:01 UTC
+Testing GitHub access...
+✅ GitHub is accessible
+
+Expected output format:
+
+🚀 GitHub 每日热门项目 TOP 10 (2026-03-02)
+
+#1 facebook/react
+⭐️ Star: 245k
+📝 描述：声明式 JavaScript 库，用于构建用户界面
+💻 语言：JavaScript
+📖 介绍：React 是由 Facebook 开源的强大前端框架，用于构建单页应用和动态用户界面。其虚拟 DOM 机制和组件化开发模式极大提升了开发效率。
+
+#2 vuejs/core
+⭐️ Star: 220k
+📝 描述：渐进式 JavaScript 框架
+💻 语言：TypeScript
+📖 介绍：Vue.js 是一款轻量级前端框架，学习曲线平缓，适合快速开发单页应用。
+
+... (8 more)
+
+=========================================
+✅ 消息格式验证完成
+=== GitHub Trending Test ===
+Timestamp: 2026-03-12 00:00:01 UTC
+Testing GitHub access...
+✅ GitHub is accessible
+
+Expected output format:
+
+🚀 GitHub 每日热门项目 TOP 10 (2026-03-02)
+
+#1 facebook/react
+⭐️ Star: 245k
+📝 描述：声明式 JavaScript 库，用于构建用户界面
+💻 语言：JavaScript
+📖 介绍：React 是由 Facebook 开源的强大前端框架，用于构建单页应用和动态用户界面。其虚拟 DOM 机制和组件化开发模式极大提升了开发效率。
+
+#2 vuejs/core
+⭐️ Star: 220k
+📝 描述：渐进式 JavaScript 框架
+💻 语言：TypeScript
+📖 介绍：Vue.js 是一款轻量级前端框架，学习曲线平缓，适合快速开发单页应用。
+
+... (8 more)
+
+=========================================
+✅ 消息格式验证完成
+=== GitHub Trending Test ===
+Timestamp: 2026-03-13 00:00:01 UTC
+Testing GitHub access...
+⚠️  GitHub access issue
+
+Expected output format:
+
+🚀 GitHub 每日热门项目 TOP 10 (2026-03-02)
+
+#1 facebook/react
+⭐️ Star: 245k
+📝 描述：声明式 JavaScript 库，用于构建用户界面
+💻 语言：JavaScript
+📖 介绍：React 是由 Facebook 开源的强大前端框架，用于构建单页应用和动态用户界面。其虚拟 DOM 机制和组件化开发模式极大提升了开发效率。
+
+#2 vuejs/core
+⭐️ Star: 220k
+📝 描述：渐进式 JavaScript 框架
+💻 语言：TypeScript
+📖 介绍：Vue.js 是一款轻量级前端框架，学习曲线平缓，适合快速开发单页应用。
+
+... (8 more)
+
+=========================================
+✅ 消息格式验证完成
+=== GitHub Trending Test ===
+Timestamp: 2026-03-14 00:00:01 UTC
+Testing GitHub access...
+⚠️  GitHub access issue
+
+Expected output format:
+
+🚀 GitHub 每日热门项目 TOP 10 (2026-03-02)
+
+#1 facebook/react
+⭐️ Star: 245k
+📝 描述：声明式 JavaScript 库，用于构建用户界面
+💻 语言：JavaScript
+📖 介绍：React 是由 Facebook 开源的强大前端框架，用于构建单页应用和动态用户界面。其虚拟 DOM 机制和组件化开发模式极大提升了开发效率。
+
+#2 vuejs/core
+⭐️ Star: 220k
+📝 描述：渐进式 JavaScript 框架
+💻 语言：TypeScript
+📖 介绍：Vue.js 是一款轻量级前端框架，学习曲线平缓，适合快速开发单页应用。
+
+... (8 more)
+
+=========================================
+✅ 消息格式验证完成
+=== GitHub Trending Test ===
+Timestamp: 2026-03-15 00:00:01 UTC
+Testing GitHub access...
+✅ GitHub is accessible
+
+Expected output format:
+
+🚀 GitHub 每日热门项目 TOP 10 (2026-03-02)
+
+#1 facebook/react
+⭐️ Star: 245k
+📝 描述：声明式 JavaScript 库，用于构建用户界面
+💻 语言：JavaScript
+📖 介绍：React 是由 Facebook 开源的强大前端框架，用于构建单页应用和动态用户界面。其虚拟 DOM 机制和组件化开发模式极大提升了开发效率。
+
+#2 vuejs/core
+⭐️ Star: 220k
+📝 描述：渐进式 JavaScript 框架
+💻 语言：TypeScript
+📖 介绍：Vue.js 是一款轻量级前端框架，学习曲线平缓，适合快速开发单页应用。
+
+... (8 more)
+
+=========================================
+✅ 消息格式验证完成
+=== GitHub Trending Test ===
+Timestamp: 2026-03-16 00:00:01 UTC
+Testing GitHub access...
+✅ GitHub is accessible
+
+Expected output format:
+
+🚀 GitHub 每日热门项目 TOP 10 (2026-03-02)
+
+#1 facebook/react
+⭐️ Star: 245k
+📝 描述：声明式 JavaScript 库，用于构建用户界面
+💻 语言：JavaScript
+📖 介绍：React 是由 Facebook 开源的强大前端框架，用于构建单页应用和动态用户界面。其虚拟 DOM 机制和组件化开发模式极大提升了开发效率。
+
+#2 vuejs/core
+⭐️ Star: 220k
+📝 描述：渐进式 JavaScript 框架
+💻 语言：TypeScript
+📖 介绍：Vue.js 是一款轻量级前端框架，学习曲线平缓，适合快速开发单页应用。
+
+... (8 more)
+
+=========================================
+✅ 消息格式验证完成
+=== GitHub Trending Test ===
+Timestamp: 2026-03-17 00:00:01 UTC
+Testing GitHub access...
+✅ GitHub is accessible
+
+Expected output format:
+
+🚀 GitHub 每日热门项目 TOP 10 (2026-03-02)
+
+#1 facebook/react
+⭐️ Star: 245k
+📝 描述：声明式 JavaScript 库，用于构建用户界面
+💻 语言：JavaScript
+📖 介绍：React 是由 Facebook 开源的强大前端框架，用于构建单页应用和动态用户界面。其虚拟 DOM 机制和组件化开发模式极大提升了开发效率。
+
+#2 vuejs/core
+⭐️ Star: 220k
+📝 描述：渐进式 JavaScript 框架
+💻 语言：TypeScript
+📖 介绍：Vue.js 是一款轻量级前端框架，学习曲线平缓，适合快速开发单页应用。
+
+... (8 more)
+
+=========================================
+✅ 消息格式验证完成
+🌟 GitHub Trending Daily - Unified Bot Push
+   Date: 2026-03-18
+🌟 **GitHub Trending Daily**\n📅 2026-03-18 | ⏰ 00:11TC+8\n━━━━━━━━━━━━━━━⚡━━━━━━━━━━━━━━━\n*Top 10 trending repositories (/chat/RxXq5YgH1tGjZ0k7N3mL8pQ9 Bot)*\n\n• 1. @facebook/react\n• 2. @vercel/next.js\n• 3. @trekhleb/javascript-algorithms\n• 4. @TheAICoder/AI-Hub\n• 5. @golang/go\n• 6. @google-gemini/generative-ai-js\n• 7. @pytorch/pytorch\n• 8. @microsoft/azure-data-api-granite\n• 9. @docker/cli\n• 10. @tailwindlabs/tailwindcss\n\n━━━━━━━⚡━━━━━━━━━━━━━━━🌟━━━━━━,*🚀 Source: OpenClaw Bot (/chat/RxXq5YgH1tGjZ0k7N3mL8pQ9)*\n
+OPENCLAW_MESSAGE_TO:chat:/chat/RxXq5YgH1tGjZ0k7N3mL8pQ9:::🌟 **GitHub Trending Daily**\n📅 2026-03-18 | ⏰ 00:11TC+8\n━━━━━━━━━━━━━━━⚡━━━━━━━━━━━━━━━\n*Top 10 trending repositories (/chat/RxXq5YgH1tGjZ0k7N3mL8pQ9 Bot)*\n\n• 1. @facebook/react\n• 2. @vercel/next.js\n• 3. @trekhleb/javascript-algorithms\n• 4. @TheAICoder/AI-Hub\n• 5. @golang/go\n• 6. @google-gemini/generative-ai-js\n• 7. @pytorch/pytorch\n• 8. @microsoft/azure-data-api-granite\n• 9. @docker/cli\n• 10. @tailwindlabs/tailwindcss\n\n━━━━━━━⚡━━━━━━━━━━━━━━━🌟━━━━━━,*🚀 Source: OpenClaw Bot (/chat/RxXq5YgH1tGjZ0k7N3mL8pQ9)*\n
+/usr/bin/bash: line 3: 8: command not found
