@@ -2,7 +2,7 @@
   "version": 1,
   "current": {
     "type": "PersonalityState",
-    "rigor": 0.7,
+    "rigor": 1,
     "creativity": 0.35,
     "verbosity": 0.25,
     "risk_tolerance": 0.4,
@@ -10,5 +10,5 @@
   },
   "stats": {},
   "history": [],
-  "updated_at": "2026-04-21T09:08:25.523Z"
+  "updated_at": "2026-04-23T03:59:48.567Z"
 }

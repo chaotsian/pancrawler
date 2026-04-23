@@ -1,7 +1,7 @@
 {
   "last_run": {
-    "run_id": "run_1776762505525",
-    "created_at": "2026-04-21T09:08:25.543Z",
+    "run_id": "run_1776916777689",
+    "created_at": "2026-04-23T03:59:37.704Z",
     "parent_event_id": null,
     "selected_gene_id": "gene_tool_integrity",
     "selected_capsule_id": null,
@@ -9,53 +9,51 @@
       "selected": "gene_tool_integrity",
       "reason": [
         "signals match gene.signals_match",
-        "signals: perf_bottleneck, high_tool_usage:exec, repeated_tool_usage:exec, tool_bypass, hub_search_miss_with_problem",
-        "memory_graph: memory_prefer:gene_tool_integrity | gene_prior:0.750",
+        "signals: repeated_tool_usage:exec, tool_bypass",
+        "memory_graph: memory_prefer:gene_tool_integrity | gene_prior:0.933",
         "drift_intensity: 0.577",
-        "selection_path: random",
+        "selection_path: score_ranked",
         "memory_preference_followed: true"
       ],
-      "alternatives": [
-        "gene_gep_repair_from_errors",
-        "gene_gep_optimize_prompt_and_assets"
-      ],
-      "selectionPath": "random",
+      "alternatives": [],
+      "selectionPath": "score_ranked",
       "memoryUsed": true
     },
     "signals": [
-      "perf_bottleneck",
-      "high_tool_usage:exec",
       "repeated_tool_usage:exec",
-      "tool_bypass",
-      "hub_search_miss_with_problem"
+      "tool_bypass"
     ],
     "mutation": {
       "type": "Mutation",
-      "id": "mut_1776762505523",
+      "id": "mut_1776916777687",
       "category": "innovate",
       "trigger_signals": [
-        "perf_bottleneck",
-        "high_tool_usage:exec",
         "repeated_tool_usage:exec",
-        "tool_bypass",
-        "hub_search_miss_with_problem"
+        "tool_bypass"
       ],
       "target": "gene:gene_tool_integrity",
       "expected_effect": "explore new strategy combinations to escape local optimum",
       "risk_level": "medium"
     },
-    "mutation_id": "mut_1776762505523",
+    "mutation_id": "mut_1776916777687",
     "personality_state": {
       "type": "PersonalityState",
-      "rigor": 0.7,
+      "rigor": 1,
       "creativity": 0.35,
       "verbosity": 0.25,
       "risk_tolerance": 0.4,
       "obedience": 0.85
     },
-    "personality_key": "rigor=0.7|creativity=0.3|verbosity=0.3|risk_tolerance=0.4|obedience=0.9",
+    "personality_key": "rigor=1.0|creativity=0.3|verbosity=0.3|risk_tolerance=0.4|obedience=0.9",
     "personality_known": false,
-    "personality_mutations": [],
+    "personality_mutations": [
+      {
+        "type": "PersonalityMutation",
+        "param": "rigor",
+        "delta": 0.05,
+        "reason": "errors detected in reflection"
+      }
+    ],
     "drift": false,
     "selected_by": "memory_graph+selector",
     "source_type": "generated",
@@ -63,22 +61,9 @@
     "reused_source_node": null,
     "reused_chain_id": null,
     "baseline_untracked": [
-      "assets/gep/candidates.jsonl",
-      "assets/gep/capsules.json",
-      "assets/gep/events.jsonl",
-      "assets/gep/failed_capsules.json",
-      "assets/gep/genes.json",
-      "assets/gep/genes.jsonl",
-      "memory/evolution/evolution_solidify_state.json",
-      "memory/evolution/evolution_state.json",
-      "memory/evolution/idle_schedule_state.json",
-      "memory/evolution/memory_graph.jsonl",
-      "memory/evolution/memory_graph_state.json",
-      "memory/evolution/personality_state.json",
-      "memory/evolution/question_generator_state.json",
-      "memory/evolver_update_check.json"
+      "memory/evolution/reflection_log.jsonl"
     ],
-    "baseline_git_head": "828d7e9fb65492444243e57051b9815b03f0f8a7",
+    "baseline_git_head": "c07236d0052d2ce146637add8aaabdca10716d9b",
     "blast_radius_estimate": {
       "files": 4,
       "lines": 320
@@ -105,13 +90,13 @@
     "commitment_deadline": null,
     "applied_lessons": [],
     "hub_lessons": [],
-    "cycleId": "0003",
-    "initial_user_prompt": "Conversation info (untrusted metadata):\n```json\n{\n  \"chat_id\": \"user:ou_63a0ac397bf0e77bd4ef632b0822a779\",\n  \"message_id\": \"om_x100b514794bc44a4b362afca6fe640e\",\n  \"sender_id\": \"ou_63a0ac397bf0e77bd4ef632b0822a779\",\n  \"sender\": \"ou_63a0ac397bf0e77bd4ef632b0822a779\",\n  \"timestamp\": \"Tue 2026-04-21 17:04 GMT+8\"\n}\n```\n\nSender (untrusted metadata):\n```json\n{\n  \"label\": \"ou_63a0ac397bf0e77bd4ef632b0822a779\",\n  \"id\": \"ou_63a0ac397bf0e77bd4ef632b0822a779\",\n  \"name\": \"ou_63a0ac397bf0e77bd4ef632b0822a779\"\n}\n```\n\n[message_id: om_x100b514794bc44a4b362afca6fe640e]\nou_63a0ac397bf0e77bd4ef632b0822a779: 修复"
+    "cycleId": "27113",
+    "initial_user_prompt": "System: [2026-04-23 07:11:00 GMT+8] ✅ **中国科技新闻每日推送已执行**\nSystem: \nSystem: 📊 **执行结果**：\nSystem: - SearXNG 搜索返回空结果，已自动降级至默认数据\nSystem: - 生成 10 条中国科技新闻 TOP15（含默认 fallback 数据）\nSystem: - 日志已记录至：`/root/.openclaw/logs/china-tech-news-20260423.log`\nSystem: \nSystem: 🤖 **当前使用降级数据**（因 SearXNG 返回空结果）：\nSystem: 1. 华为麒麟 9000S 芯片突破\nSystem: 2. 比亚迪新能源汽车销量全球第一\nSystem: 3. 阿里云通义千问 Qwen2.5 开源\nSystem: 4. 中兴通讯 5G 基站出口突破\nSystem: 5. 百度 Apollo 自动驾驶商业化落地\nSystem: 6. 中国量子计算机\"九章三号\"发布\nSystem: 7. 腾讯混元大模型应用广泛\nSystem: 8. 小米智能家居生态破亿\nSystem: 9. 宁德时代动力电池全球市占率第一\nSystem: 10. 中国科技创新政策支持力度加大\nSystem: \nSystem: ⚠️ **SearXNG 搜索问题**：`http://soudb.cn:4000` 返回空结果，需检查 SearXNG 服务状态或引擎配置。\nSystem: \nSystem: **下一步**：推送至 Feishu DM (ou_63a0ac397bf0e77bd4ef632b0822a779) 需要配置 FEISHU_TARGET_USER 环境变量或在脚本中硬编码用户 ID。\nSystem: [2026-04-23 07:31:29 GMT+8] ✅ **Docker Popular 镜像推送任务完成**\nSystem: \nSystem: **执行摘要**：\nSystem: - ✅ **状态**：成功\nSystem: - ⏱️ **耗时**：41.1 秒\nSystem: - 📦 **镜像数量**：37 个\nSystem: - 📤 **推送结果**：成功（Message ID: None）\nSystem: \nSystem: **执行详情**：\nSystem: - Docker Hub API 数据获取耗时 21.4 秒\nSystem: - 推送到飞书成功\nSystem: - 结果已缓存到 `/root/.openclaw/workspace/docker-popular-today.json`\nSystem: - 详细日志已记录到 `/root/.openclaw/logs/docker-popular-20260423.log`\nSystem: \nSystem: 任务已自动推送到 Feishu DM（ou_63a0ac397bf0e77bd4ef632b0822a779）。\n\nSender (untrusted metadata):\n```json\n{\n  \"label\": \"openclaw-control-ui\",\n  \"id\": \"openclaw-control-ui\"\n}\n```\n\n[Thu 2026-04-23 10:12 GMT+8] 生成SearXNG技能http://9988.website:8080"
   },
   "last_solidify": {
-    "run_id": "run_1776762505525",
+    "run_id": "run_1776916777689",
     "rejected": true,
     "reason": "loop_bridge_disabled_autoreject_no_rollback",
-    "timestamp": "2026-04-21T09:08:25.548Z"
+    "timestamp": "2026-04-23T03:59:37.708Z"
   }
 }
