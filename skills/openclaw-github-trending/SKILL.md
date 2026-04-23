@@ -2,6 +2,8 @@
 
 自动抓取 GitHub Trending 热门项目，生成 TOP10 精选榜单，支持多语言分类。
 
+**Version**: v2.0.0
+
 ## 功能说明
 
 - **自动抓取**：从 GitHub Trending 页面抓取热门项目

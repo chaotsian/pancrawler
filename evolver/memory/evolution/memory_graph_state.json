@@ -1,16 +1,12 @@
 {
   "last_action": {
-    "action_id": "act_1776920459220_bab78d36",
-    "signal_key": "high_tool_usage:exec|hub_search_miss_with_problem|perf_bottleneck|recurring_error|repeated_tool_usage:exec|tool_bypass",
+    "action_id": "act_1776927906375_e34dd850",
+    "signal_key": "repeated_tool_usage:exec|tool_bypass",
     "signals": [
-      "perf_bottleneck",
-      "high_tool_usage:exec",
       "repeated_tool_usage:exec",
-      "recurring_error",
-      "tool_bypass",
-      "hub_search_miss_with_problem"
+      "tool_bypass"
     ],
-    "mutation_id": "mut_1776920459219",
+    "mutation_id": "mut_1776927906374",
     "mutation_category": "innovate",
     "mutation_risk_level": "medium",
     "personality_key": "rigor=1.0|creativity=0.3|verbosity=0.3|risk_tolerance=0.4|obedience=0.9",
@@ -22,12 +18,12 @@
       "risk_tolerance": 0.4,
       "obedience": 0.85
     },
-    "gene_id": "gene_gep_repair_from_errors",
+    "gene_id": "gene_tool_integrity",
     "gene_category": "repair",
-    "hypothesis_id": "hyp_1776920459219_017dc976",
+    "hypothesis_id": "hyp_1776927906374_ed5026a5",
     "capsules_used": [],
     "had_error": false,
-    "created_at": "2026-04-23T05:00:59.220Z",
+    "created_at": "2026-04-23T07:05:06.375Z",
     "outcome_recorded": false,
     "baseline_observed": {
       "agent": "main",
@@ -35,16 +31,16 @@
       "drift_enabled": false,
       "review_mode": false,
       "dry_run": false,
-      "system_health": "Uptime: 374.4h | Node: v22.22.2 | Agent RSS: 209.5MB | Disk: 23% (110.3G free) | Node Processes: 1 | Integrations: Nominal",
+      "system_health": "Uptime: 376.5h | Node: v22.22.2 | Agent RSS: 178.7MB | Disk: 23% (110.2G free) | Node Processes: 1 | Integrations: Nominal",
       "mood": "Mood: Unknown",
-      "scan_ms": 33,
+      "scan_ms": 32,
       "memory_size_bytes": 0,
-      "recent_error_count": 2,
+      "recent_error_count": 0,
       "node": "v22.22.2",
       "platform": "linux",
       "cwd": "/root/.openclaw/workspace/evolver",
       "evidence": {
-        "recent_session_tail": "--- SESSION (607c890c-add9-4860-9a1a-c4b4e4c238f8.jsonl) ---\n**ASSISTANT**: [TOOL: exec]\n**ASSISTANT**: [TOOL: process]\n**ASSISTANT**: [TOOL: exec]\n   ... [Repeated 2 times] ...\n**ASSISTANT**: [TOOL: process]\n**ASSISTANT**: [TOOL: exec]\n**ASSISTANT**: [LLM ERROR] This operation was aborted\n**USER**: System (untrusted): [2026-04-23 12:43:28 GMT+8] Exec completed (fast-for, code 0) :: update what will be committed) (use \"git restore <file>...\" to discard changes in working directory) modified: evolver/assets/gep/candidates.jsonl modified: evolver/memory/evoluti… System (untrusted): [2026-04-23 12\n**ASSISTANT**: [LLM ERROR] fetch failed | Headers Timeout Error\n**ASSISTANT**: [TOOL: exec]\n**ASSISTANT**: [LLM ERROR] This operation was aborted\n**USER**: System (untrusted): [2026-04-23 12:48:14 GMT+8] Exec completed (nova-wha, code 0) :: 8 ++++---- evolver/memory/evolution/evolution_state.json | 4 +- evolver/memory/evolution/idle_schedule_state.json | 2 +- evolver/memory/evolution/memory_graph.jsonl | Bin 10184018… An async command you ran earlier h\n**ASSISTANT**: [LLM ERROR] fetch failed | Headers Timeout Error\n**ASSISTANT**: [TOOL: exec]\n\n--- SESSION (0f1e2a05-93bf-4c97-9506-b695a97c9925.jsonl) ---\n**USER**: [cron:2b439a32-a000-4400-b5bb-a7a6c32f610f EvoMap Git Sync Monitor] 🔗 **Git 远程同步监控** ⏰ 执行时间：每 4 小时一次 (04:00, 08:00, 12:00, 16:00, 20:00, 00:00 UTC+8) 脚本路径：`/root/.openclaw/scripts/git-sync-monitor.sh` 推送目标：Feishu DM 📍 **监控内容**: • Git 远程仓库连接状态测试 • 本地版本 vs 远程版本对比 • 未推送/待拉取 commit 统计 • 最近同步时间追踪 • 生成详\n**ASSISTANT**: [TOOL: exec]\n**ASSISTANT**: [LLM ERROR] This operation was aborted\n\n--- SESSION (13c82b77-6b49-4b7e-83ef-55887d70e57d.jsonl) ---\n**USER**: [cron:2b439a32-a000-4400-b5bb-a7a6c32f610f EvoMap Git Sync Monitor] 🔗 **Git 远程同步监控** ⏰ 执行时间：每 4 小时一次 (04:00, 08:00, 12:00, 16:00, 20:00, 00:00 UTC+8) 脚本路径：`/root/.openclaw/scripts/git-sync-monitor.sh` 推送目标：Feishu DM 📍 **监控内容**: • Git 远程仓库连接状态测试 • 本地版本 vs 远程版本对比 • 未推送/待拉取 commit 统计 • 最近同步时间追踪 • 生成详\n**ASSISTANT**: [TOOL: read]\n**ASSISTANT**: [TOOL: exec]\n**ASSISTANT**: ✅ **Git 同步监控任务完成** **监控结果**： - **同步状态**：✅ 本地与远程完全同步 - **远程访问**：✅ 可访问（超时 300 秒） - **版本对比**：本地/远程 commit 一致（c07236d） - **分支信息**：master → master 报告已生成并推送至 Feishu DM，日志已记录至 `/root/.openclaw/logs/git-sync-monitor.log`。\n\n--- SESSION (3238de94-1e21-41d5-9aee-73a7eeeea86f.jsonl) ---\n**ASSISTANT**: [TOOL: exec]\n**ASSISTANT**: [TOOL: read]\n**ASSISTANT**: [TOOL: exec]\n**ASSISTANT**: [TOOL: read]\n**ASSISTANT**: [TOOL: exec]\n**ASSISTANT**: [TOOL: read]\n**ASSISTANT**: 已生成今日国际科技新闻推送内容，保存在 `/root/.openclaw/workspace/news/international-tech-news-20260423.md`： **📊 TOP15 新闻概览**： | # | 新闻标题 | 关键词 | |---|---------|--------| | 1 | Apple Vision Pro 2 | #Apple #VisionPro #ARVR | | 2 | Tesla Optimus Gen 3 | #Tesla #Robotics #AI | | 3 | Google Pixel 8 AI 手机 | #Google #Pixel\n\n--- SESSION (bad01df3-f80d-4268-94df-08134d9f7123.jsonl) ---\n**ASSISTANT**: [TOOL: write]\n**ASSISTANT**: [LLM ERROR] This operation was aborted\n\n--- SESSION (8b043131-a9ce-415a-9f1d-5509c068e938.jsonl) ---\n**ASSISTANT**: 执行 Docker Popular 镜像推送任务。 [TOOL: exec]\n**ASSISTANT**: [TOOL: process]\n**ASSISTANT**: ✅ **Docker Popular 镜像推送任务完成** **执行摘要**： - ✅ **状态**：成功 - ⏱️ **耗时**：41.1 秒 - 📦 **镜像数量**：37 个 - 📤 **推送结果**：成功（Message ID: None） **执行详情**： - Docker Hub API 数据获取耗时 21.4 秒 - 推送到飞书成功 - 结果已缓存到 `/root/.openclaw/workspace/docker-popular-today.json` - 详细日志已记录到 `/root/.openclaw/logs/docker-popular-20260423.lo\n**USER**: System (untrusted): [2026-04-23 07:31:13 GMT+8] Exec completed (fresh-fa, code 0) :: 07:31:13,440 - INFO - ✅ Docker Popular 镜像推送完成！总计耗时 41.1 秒 2026-04-23 07:31:13,441 - INFO - 📁 结果已缓存到 /root/.openclaw/workspace/docker-popular-today.json ==========================… An async command you ran earlier h\n**ASSISTANT**: 已确认任务完成 ✅",
+        "recent_session_tail": "--- SESSION (607c890c-add9-4860-9a1a-c4b4e4c238f8.jsonl) ---\n**USER**: Sender (untrusted metadata): ```json {   \"label\": \"openclaw-control-ui\",   \"id\": \"openclaw-control-ui\" } ``` [Thu 2026-04-23 14:54 GMT+8] 修正这些版本格式\n**ASSISTANT**: [TOOL: read]\n   ... [Repeated 1 times] ...\n**ASSISTANT**: [TOOL: edit]\n**ASSISTANT**: [TOOL: exec]\n   ... [Repeated 5 times] ...\n**ASSISTANT**: [LLM ERROR] This operation was aborted\n**USER**: Sender (untrusted metadata): ```json {   \"label\": \"openclaw-control-ui\",   \"id\": \"openclaw-control-ui\" } ``` [Thu 2026-04-23 15:02 GMT+8] 查看工作进展\n**ASSISTANT**: [TOOL: exec]\n   ... [Repeated 2 times] ...\n\n--- SESSION (0f1e2a05-93bf-4c97-9506-b695a97c9925.jsonl) ---\n**USER**: [cron:2b439a32-a000-4400-b5bb-a7a6c32f610f EvoMap Git Sync Monitor] 🔗 **Git 远程同步监控** ⏰ 执行时间：每 4 小时一次 (04:00, 08:00, 12:00, 16:00, 20:00, 00:00 UTC+8) 脚本路径：`/root/.openclaw/scripts/git-sync-monitor.sh` 推送目标：Feishu DM 📍 **监控内容**: • Git 远程仓库连接状态测试 • 本地版本 vs 远程版本对比 • 未推送/待拉取 commit 统计 • 最近同步时间追踪 • 生成详\n**ASSISTANT**: [TOOL: exec]\n**ASSISTANT**: [LLM ERROR] This operation was aborted\n\n--- SESSION (13c82b77-6b49-4b7e-83ef-55887d70e57d.jsonl) ---\n**USER**: [cron:2b439a32-a000-4400-b5bb-a7a6c32f610f EvoMap Git Sync Monitor] 🔗 **Git 远程同步监控** ⏰ 执行时间：每 4 小时一次 (04:00, 08:00, 12:00, 16:00, 20:00, 00:00 UTC+8) 脚本路径：`/root/.openclaw/scripts/git-sync-monitor.sh` 推送目标：Feishu DM 📍 **监控内容**: • Git 远程仓库连接状态测试 • 本地版本 vs 远程版本对比 • 未推送/待拉取 commit 统计 • 最近同步时间追踪 • 生成详\n**ASSISTANT**: [TOOL: read]\n**ASSISTANT**: [TOOL: exec]\n**ASSISTANT**: ✅ **Git 同步监控任务完成** **监控结果**： - **同步状态**：✅ 本地与远程完全同步 - **远程访问**：✅ 可访问（超时 300 秒） - **版本对比**：本地/远程 commit 一致（c07236d） - **分支信息**：master → master 报告已生成并推送至 Feishu DM，日志已记录至 `/root/.openclaw/logs/git-sync-monitor.log`。\n\n--- SESSION (3238de94-1e21-41d5-9aee-73a7eeeea86f.jsonl) ---\n**ASSISTANT**: [TOOL: exec]\n**ASSISTANT**: [TOOL: read]\n**ASSISTANT**: [TOOL: exec]\n**ASSISTANT**: [TOOL: read]\n**ASSISTANT**: [TOOL: exec]\n**ASSISTANT**: [TOOL: read]\n**ASSISTANT**: 已生成今日国际科技新闻推送内容，保存在 `/root/.openclaw/workspace/news/international-tech-news-20260423.md`： **📊 TOP15 新闻概览**： | # | 新闻标题 | 关键词 | |---|---------|--------| | 1 | Apple Vision Pro 2 | #Apple #VisionPro #ARVR | | 2 | Tesla Optimus Gen 3 | #Tesla #Robotics #AI | | 3 | Google Pixel 8 AI 手机 | #Google #Pixel\n\n--- SESSION (bad01df3-f80d-4268-94df-08134d9f7123.jsonl) ---\n**ASSISTANT**: [TOOL: write]\n**ASSISTANT**: [LLM ERROR] This operation was aborted\n\n--- SESSION (8b043131-a9ce-415a-9f1d-5509c068e938.jsonl) ---\n**ASSISTANT**: 执行 Docker Popular 镜像推送任务。 [TOOL: exec]\n**ASSISTANT**: [TOOL: process]\n**ASSISTANT**: ✅ **Docker Popular 镜像推送任务完成** **执行摘要**： - ✅ **状态**：成功 - ⏱️ **耗时**：41.1 秒 - 📦 **镜像数量**：37 个 - 📤 **推送结果**：成功（Message ID: None） **执行详情**： - Docker Hub API 数据获取耗时 21.4 秒 - 推送到飞书成功 - 结果已缓存到 `/root/.openclaw/workspace/docker-popular-today.json` - 详细日志已记录到 `/root/.openclaw/logs/docker-popular-20260423.lo\n**USER**: System (untrusted): [2026-04-23 07:31:13 GMT+8] Exec completed (fresh-fa, code 0) :: 07:31:13,440 - INFO - ✅ Docker Popular 镜像推送完成！总计耗时 41.1 秒 2026-04-23 07:31:13,441 - INFO - 📁 结果已缓存到 /root/.openclaw/workspace/docker-popular-today.json ==========================… An async command you ran earlier h\n**ASSISTANT**: 已确认任务完成 ✅",
         "today_log_tail": "[MISSING] /root/.openclaw/workspace/evolver/memory/2026-04-19.md"
       }
     }
