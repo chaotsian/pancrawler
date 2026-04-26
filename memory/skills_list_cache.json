@@ -1,0 +1,15 @@
+{
+  "check_time": "2026-04-27T02:00:00+08:00",
+  "workspace_skills_count": 12,
+  "skills_with_version": 2,
+  "skills_without_version": 10,
+  "builtin_skills_count": 55,
+  "feishu_skills_count": 13,
+  "env": {
+    "node": "v22.22.2",
+    "npm": "10.9.7",
+    "curl": "8.5.0"
+  },
+  "with_version": ["crawl4ai (v1.0.0)", "openclaw-github-trending (v2.1.0)"],
+  "without_version": ["claw-code", "feishu-toolkit", "openclaw-agent-browser", "openclaw-master-skills", "openclaw-troubleshooter", "searxng", "self-improving-agent-cn", "tmux", "video-frames", "weather"]
+}
