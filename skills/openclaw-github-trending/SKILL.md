@@ -1,13 +1,15 @@
 # GitHub Trending 抓取插件
 
-自动抓取 GitHub Trending 热门项目，生成 TOP10 精选榜单，支持多语言分类。
+version: 2.1.0
 
-**Version**: v2.0.0
+自动抓取 GitHub Trending 热门项目，生成 TOP20 精选榜单，无需分类，全部项目整合展示。
+
+**Version**: v2.1.0
 
 ## 功能说明
 
 - **自动抓取**：从 GitHub Trending 页面抓取热门项目
-- **多语言支持**：支持 JavaScript、TypeScript、Python 等主流语言
+- **TOP20 榜单**：整合今日/本周数据，展示 Top 20 热门项目
 - **中文介绍**：生成项目中文介绍和推荐理由
 - **数据展示**：展示 Star/Fork 数量、语言标签、今日新增 Stars
 - **定时推送**：每天 07:40 推送到 Feishu DM
