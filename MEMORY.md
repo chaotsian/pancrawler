@@ -67,7 +67,7 @@ SearxNG 运行在 http://soudb.cn:4000
 类型：AI 自主进化系统 (LLM-driven)
 运行方式：balanced mode
 路径：/root/.openclaw/workspace/evolver/
-守护进程 PID: 580668
+守护进程 PID: 708921
 每日 01:00 Deep Check + 00:10 Auto-Update Check
 标签：#project #architecture #evolver #ai
 
@@ -141,17 +141,3 @@ Version: 2.0 | Last Update: 2026-04-19 02:00 UTC+8
   - 保留：用户偏好 + 项目知识 + 经验教训 + 重要配置
   - 新增：系统优化偏好、工作区结构图
   - 精简后：360 → 180 行 (-50%)
-
-## Promoted From Short-Term Memory (2026-04-19)
-
-<!-- openclaw-memory-promotion:memory:memory/2026-04-13.md:419:421 -->
-- - Candidate: Possible Lasting Truths: **2026-03-29** ## 📚 技能定期检查 ✅ **检查时间**: 2026-03-29 02:00:07 ✅ **检查统计**: - 总技能数：8 - 有版本声明：7✅ - 待添加版本：1⚠️ ✅ **已正确声明版本**: - openclaw-troubleshooter: v0.1.0 - find-skills: v0.1.0 - agent-browser: v0.15.1 - skill-vetter: v1.0.0 - Skill-Vetter: v1.0.0 - searxng - confidence: 0.00 - evidence: memory/2026-04-13.md:404-406 [score=0.837 recalls=0 avg=0.620 source=memory/2026-04-13.md:8-10]
-
-## Promoted From Short-Term Memory (2026-04-20)
-
-<!-- openclaw-memory-promotion:memory:memory/2026-04-14.md:333:336 -->
-- - Candidate: Reflections: Theme: `assistant` kept surfacing across 1374 memories.; confidence: 1.00; evidence: memory/.dreams/session-corpus/2026-04-10.txt:2-2, memory/.dreams/session-corpus/2026-04-10.txt:3-3, memory/.dreams/session-corpus/2026-04-10.txt:4-4; note: reflection - confidence: 0.00 - evidence: memory/2026-04-14.md:333-336 - recalls: 0 [score=0.848 recalls=0 avg=0.620 source=memory/2026-04-14.md:3-6]
-<!-- openclaw-memory-promotion:memory:memory/2026-04-14.md:339:341 -->
-- - Candidate: Possible Lasting Truths: **2026-03-29** ## 📚 技能定期检查 ✅ **检查时间**: 2026-03-29 02:00:07 ✅ **检查统计**: - 总技能数：8 - 有版本声明：7✅ - 待添加版本：1⚠️ ✅ **已正确声明版本**: - openclaw-troubleshooter: v0.1.0 - find-skills: v0.1.0 - agent-browser: v0.15.1 - skill-vetter: v1.0.0 - Skill-Vetter: v1.0.0 - searxng - confidence: 0.00 - evidence: memory/2026-04-14.md:339-341 [score=0.848 recalls=0 avg=0.620 source=memory/2026-04-14.md:8-10]
-<!-- openclaw-memory-promotion:memory:memory/2026-04-15.md:299:301 -->
-- - Candidate: Possible Lasting Truths: **2026-03-29** ## 📚 技能定期检查 ✅ **检查时间**: 2026-03-29 02:00:07 ✅ **检查统计**: - 总技能数：8 - 有版本声明：7✅ - 待添加版本：1⚠️ ✅ **已正确声明版本**: - openclaw-troubleshooter: v0.1.0 - find-skills: v0.1.0 - agent-browser: v0.15.1 - skill-vetter: v1.0.0 - Skill-Vetter: v1.0.0 - searxng - confidence: 0.00 - evidence: memory/2026-04-15.md:269-271 [score=0.813 recalls=0 avg=0.620 source=memory/2026-04-15.md:8-10]
