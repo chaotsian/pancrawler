@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "skills": {
+    "openclaw-master-skills": {
+      "version": "0.7.0",
+      "installedAt": 1776932282935
+    },
+    "openclaw-agent-browser": {
+      "version": "1.0.0",
+      "installedAt": 1776932763816
+    },
+    "searxng": {
+      "version": "1.0.3",
+      "installedAt": 1776932881715
+    },
+    "weather": {
+      "version": "1.0.0",
+      "installedAt": 1776933061945
+    },
+    "tmux": {
+      "version": "1.0.0",
+      "installedAt": 1776933121513
+    },
+    "feishu-toolkit": {
+      "version": "1.0.0",
+      "installedAt": 1776933242073
+    },
+    "video-frames": {
+      "version": "1.0.0",
+      "installedAt": 1776933662101
+    },
+    "claw-code": {
+      "version": "1.0.0",
+      "installedAt": 1776933786475
+    },
+    "self-improving-agent-cn": {
+      "version": "1.0.0",
+      "installedAt": 1776934442491
+    },
+    "openclaw-troubleshooter": {
+      "version": "1.0.0",
+      "installedAt": 1776934802106
+    }
+  }
+}
